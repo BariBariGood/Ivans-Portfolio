@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Ivan's Resume</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+
+    <div id = "preloader">
+      <div class = "white">Loading: </div>
+    </div>
+    
+    
+    <main>
+    
+          
+      
+      <header>
+        <h1>Ivan Del Rio</h1>
+        <p>resume</p>
+        <button onclick='changeBackground()' class="glow-on-hover" type="button">Change Theme</button>
+
+      </header>
+
+
+      <blockquote>
+        <p>DVHS C/O 2023 Senior</p>
+      </blockquote>
+
+      <section>
+        <h2>📜 Bio</h2>
+        <p>
+          Hello, I'm Ivan! I'm a hard working student who loves to play all kinds of sports and instruments, as well as code. I have a passion for the STEM field and community service. I hope to meet new people and grow as a student leader!
+        </p>
+
+      </section>
+
+      <section class="light">
+        <h2>🏆 ACADEMIC ACHIEVEMENTS & AWARDS</h2>
+
+        <p>4.14 GPA
+Notable Coursework (3 APs, 3 Honors): AP Calculus AB, AP Computer Science A, AP European History, Honors Spanish 4, Honors Physics, Honors Chemistry</li>
+          </p>
+        <ul>
+          <li>2022 Dougherty Valley Gomoku AI 1st Place Winner</li>
+          <li>2021 Lieutenant Governor's Award Recipient</li>
+          <li>2021 Key Club Distinguished Secretary Award</li>
+          <li>2021 Key Club Platinum Award (275+ Service Hours)</li>
+          <li>2021 President Volunteer Service Award Gold Recipient (250+ Service Hours)</li>
+          <li>2018 SRVHS Jazz Invitational Special Recognition Award</li>
+        </ul>
+
+        <h2>Notable events/projects</h2>
+
+        <ul>
+          <li> 2022 Competed in USACO for USOPEN</li>
+        </ul>
+
+        
+
+      </section>
+
+
+      <section class="left">
+        <h2>🤓 Extracurricular Activities</h2>
+
+        <h2>Dougherty Valley High School</h2>
+
+        <ul>
+          <li> 2022-Present    Jazz Band Section Leader</li>
+          <li> 2020-Present    Glide Drives Committee</li>
+          <li> 2019-Present    CSF Member</li>
+          <li> 2019-Present    Key Club Member</li>
+          <li> 2021-2022    Wind Ensemble 1 Section Leader</li>
+          <li> 2020-2021    Wind Ensemble 2 Section Leader</li>
+          <li> 2020-2021    Varsity Volleyball Hitter</li>
+          <li> 2020-2021    Music Service Club Tutor</li>
+          <li> 2020-2021    Jazz Club Performer</li>
+          <li> 2019-2020    JV Volleyball Libero</li>
+        </ul>
+
+        <h2>Outside organizations</h2>
+
+        <ul>
+          <li> 2022-Present    Contra Costa County Honor Band Section Leader</li>
+          <li> 2021-Present    Figure Skater</li>
+          <li> 2018-2021       Band Trio (Gigs/featured performers)</li>
+          <li> 2017-2021       St. Joan of Arc Parish Altar Server</li>
+          <li> 2014-2020       Basketball (CYO & TVB)</li>
+          <li> 2018            CMEA Honor Band Section Leader</li>
+          <li> 2015-2018       WRMS Symphonic Band Section Leader</li>
+        </ul>
+
+      </section>
+
+      <blockquote>
+        <p>Thanks for viewing!</p>
+      </blockquote>
+
+      
+        <section>
+        <h2>contact me!</h2>
+        <p style="text-align:right;">Phone: (925) 951-8127</p>
+        <p style="text-align:right;">Email: i_of@gmail.com</p>
+
+        <form onsubmit = "validateForm()" id="my-form">
+          <label for = "name">Name:</label>
+          <input type = "text" id = "name" name = "name" placeholder = "Your name">
+          <small class = "error"></small>
+
+          <label for = "email">Email:</label>
+          <input type = "text" id = "email" name = "email" placeholder = "Your email">
+          <small class = "error"></small>
+
+          <label for = "name">message:</label>
+          <textarea id = "message" name = "message" placeholder = "Your message" rows = "6"></textarea>
+          <small class = "error"></small>
+
+          <div class = "center">
+            <input type = "submit" value = "Send Message">
+            <p id = "success"></p>
+          </div>
+          </form>
+      </section>
+      
+      
+    </main>
+    <!-- Including the three.js library -->
+    <canvas id = "bg"></canvas>
+
+    <script src="https://cdn.jsdelivr.net/npm/three/build/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three/examples/js/controls/OrbitControls.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three/examples/js/loaders/STLLoader.js"></script>
+    <script src="main.js"></script>
+    <script src="contact.js"></script>
+
+
+
+    <script>
+    
+  </script>
+
+    
+  </body>
+
+  
+  
+</html>
